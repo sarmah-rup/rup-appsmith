@@ -194,7 +194,7 @@ authorization with your login provider
         {/* Header */}
         <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>Role based access control</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Customize grandar roles, groups, and permissions
+        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Customize granular roles, groups, and permissions
 </p>
       </div>
     </div>
