@@ -59,7 +59,7 @@ function DemoPage() {
   <div className="grid gap-sm sm:mt-md sm:grid-cols-3" >
     <div className="flex flex-col justify-between rounded-lg bg-secondary-light-100/60 px-6 py-8 dark:bg-primary-dark-700" id='spotlight'>
       <div>
-        <h3 className="font-display text-5xl font-extrabold leading-none text-primary-dark-900 dark:text-primary-light-500">8 hours</h3>
+        <h3 className="font-display text-5xl font-extrabold leading-none text-primary-dark-900 dark:text-primary-light-500">9 hours</h3>
         <p className="mt-2xs text-md font-medium text-primary-light-500 dark:text-primary-dark-100">Spent to develop this React Next-js application</p>
       </div>
       
