@@ -7,7 +7,7 @@ import image_banner from '/public/conversion_panel.png';
 import noiseBackground from '../public/noise.svg';
 import HeaderSection from '../app/ui/components/Header';
 import FooterSection from '../app/ui/components/Footer';
-import PricingSection from '../app/ui/components/Pricingcards';
+import PricingSection from '../app/ui/components/PricingCards';
 
 import Image from 'next/image';
 
