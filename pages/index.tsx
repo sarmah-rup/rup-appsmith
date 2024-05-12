@@ -38,7 +38,7 @@ function DemoPage() {
         </h1>
           <div className="font-body text-xs leading-normal md:text-sm lg:text-base text-center mt-3xs text-primary-dark-800/70 dark:text-primary-neutral-50/80 lg:mt-2xs 2xl:mt-xs max-w-[35em] lg:max-w-[40em] 2xl:max-w-[45em]">
             <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs">
-              <span>I created the home page for easy navigation across other pages. I have utilised existing classes from appsmith.com to expedite the development process.  </span>
+              <span>This home page is for easy navigation across other pages. I have utilised existing classes from appsmith.com to expedite the development process.  </span>
             </p>
           </div>
           <div className="mt-2xs flex gap-sm md:mt-sm 2xl:mt-md">
@@ -72,7 +72,7 @@ function DemoPage() {
     <div className="flex flex-col justify-between rounded-lg bg-secondary-light-100/60 px-6 py-8 dark:bg-primary-dark-700" id='spotlight'>
       <div>
         <h3 className="font-display text-3xl font-extrabold leading-none text-primary-dark-600 dark:text-primary-light-500">60%</h3>
-        <p className="mt-2xs text-md font-medium text-primary-light-500 dark:text-primary-dark-100">Time reduced by utilising existing classes, global css and GPTs</p>
+        <p className="mt-2xs text-md font-medium text-primary-light-500 dark:text-primary-dark-100">Development time reduced by utilising existing classes, global css and GPTs</p>
       </div>
       <div className="mt-md flex h-full items-end">
        </div>
