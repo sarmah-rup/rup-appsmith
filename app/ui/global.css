@@ -3991,6 +3991,7 @@ details summary::-webkit-details-marker {
 
 .icon-glow:hover {
   box-shadow: 0 0 15px #b84304;
+  transition: box-shadow 0.7s;
 
 }
 
@@ -4001,6 +4002,16 @@ details summary::-webkit-details-marker {
   border-radius: 20px;
   font-size: 10px;
   transition: box-shadow 0.7s;
+}
+
+
+#spotlight:hover .icon-glow {
+  box-shadow: 0 0 15px #b84304;
+  transition: box-shadow 0.7s;
+}
+
+#spotlight .icon-glow {
+  transition: box-shadow 0.7s; /* Apply transition to the box-shadow property */
 }
 
 

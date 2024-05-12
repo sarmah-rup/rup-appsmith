@@ -317,6 +317,8 @@ function PricingPage() {
       
     </div>
 
+    
+
     <div className=' ' style={{margin:'50px'}}>
     <div className="container mx-auto ">
       <div className="dark relative flex translate-y-1/4 flex-col overflow-hidden rounded-lg bg-secondary-light-100/60 opacity-0 md:flex-row ConversionPanel_noiseBgLight__3g_pP" style={{ translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)' }}>

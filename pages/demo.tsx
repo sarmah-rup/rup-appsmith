@@ -8,6 +8,7 @@ import Spotlight, { SpotlightCard } from '../app/ui/components/spotlight';
 import image_banner from '/public/conversion_panel.png';
 import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.css';
+import noiseBackground from '../public/noise.svg';
 
 
 function DemoPage() {
@@ -37,10 +38,11 @@ function DemoPage() {
       </span>
     </h1>
         <div className="font-body text-xs leading-normal md:text-sm lg:text-base text-center mt-3xs text-primary-dark-800/70 dark:text-primary-neutral-50/80 lg:mt-2xs 2xl:mt-xs max-w-[35em] lg:max-w-[40em] 2xl:max-w-[45em]">
-          <p className="font-body text-xl leading-normal md:text-sm lg:text-base mb-2xs">
-            <span>From startups to enterprises, businesses are improving operations and increasing efficiency by building custom apps on Appsmith.</span>
-          </p>
-        </div>
+  <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs">
+    <span>Thousands of teams use the Appsmith low-code application platform to quickly build, deploy, and manage effective software with enterprise-grade security and governance.</span>
+  </p>
+</div>
+
    {/*     <div className="mt-2xs flex gap-sm md:mt-sm 2xl:mt-md">
           <a className="group relative inline-flex items-center whitespace-nowrap rounded text-primary-neutral-50 transition hover:text-primary-light-500 dark:hover:text-primary-neutral-50 text-xs lg:text-sm 2xl:text-sm font-display font-bold px-sm py-2xs sm:px-sm sm:py-xs xl:px-md xl:py-sm 2xl:px-lg" target="_blank">
             <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">Try Cloud</span>
@@ -62,9 +64,7 @@ function DemoPage() {
   <SpotlightCard >
   <div id='spotlight' className="relative bg-slate-900 p-6 rounded-[inherit] z-20 overflow-hidden spotlight" style={{ background: 'white', border: '1px solid #DCDAEF', backgroundImage: 'linear-gradient(to bottom left, transparent 90%, rgba(251, 251, 248, 0.5) 85%)', marginBottom:'0px' }}>
     {/* Radial gradient */}
-    <div className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
-      <div className="absolute inset-0 translate-z-0 rounded-full blur-[80px]"></div>
-    </div>
+   
     <div className="flex flex-col items-center text-center" >
       {/* Image */}
       
@@ -79,9 +79,9 @@ function DemoPage() {
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>Self-hosting air-gapped deployment</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>Self-hosting air-gapped deployment</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Run any edition of Appsmith in your
+        <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478', marginBottom:'0px' }}>Run any edition of Appsmith in your
 infrastructure</p>
       </div>
     </div>
@@ -107,9 +107,9 @@ infrastructure</p>
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>Embeddable within existing apps with shared logins </h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>Embeddable within existing apps with shared logins </h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Extend the functionality of your legacy and SaaS applications
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Extend the functionality of your legacy and SaaS applications
 infrastructure</p>
       </div>
     </div>
@@ -135,9 +135,9 @@ infrastructure</p>
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>Open source under Apache 2.0 license</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>Open source under Apache 2.0 license</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Build with high transparency and low vendor risk
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Build with high transparency and low vendor risk
 infrastructure</p>
       </div>
     </div>
@@ -163,9 +163,9 @@ infrastructure</p>
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>SAML and OIDC SSO</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>SAML and OIDC SSO</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Secure authentication and
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Secure authentication and
 authorization with your login provider
 </p>
       </div>
@@ -192,9 +192,9 @@ authorization with your login provider
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>Role based access control</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>Role based access control</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Customize granular roles, groups, and permissions
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Customize granular roles, groups, and permissions
 </p>
       </div>
     </div>
@@ -220,9 +220,9 @@ authorization with your login provider
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>User provisioning system</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>User provisioning system</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Import users and their roles from your current IdP
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Import users and their roles from your current IdP
 </p>
       </div>
     </div>
@@ -248,9 +248,9 @@ authorization with your login provider
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>Audit logging</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>Audit logging</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Track organizational use and remediate issues
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Track organizational use and remediate issues
 </p>
       </div>
     </div>
@@ -276,9 +276,9 @@ authorization with your login provider
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>SOC 2 Type II</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>SOC 2 Type II</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Top notch security processes and
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Top notch security processes and
 controls</p>
       </div>
     </div>
@@ -304,9 +304,9 @@ controls</p>
 
 
         {/* Header */}
-        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: 'black', }}>Award-winning support</h2>
+        <h2 className="font-display text-lg font-bold leading-tight md:text-xl 2xl:text-2xl mb-2xs text-primary-dark-900 dark:text-primary-neutral-100" style={{ textAlign: 'left', color: '#101727', }}>Award-winning support</h2>
         {/* Description */}
-        <p className="text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: 'black', marginBottom:'0px' }}>Development assistance with rapid response</p>
+         <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs" style={{ textAlign: 'left', color: '#5E5478',marginBottom:'0px' }}>Development assistance with rapid response</p>
       </div>
     </div>
   </div>
@@ -315,47 +315,51 @@ controls</p>
 </Spotlight>
 
     </div>
-  
 
-    <div className=' ' style={{margin:'50px'}}>
-    <div className="container mx-auto ">
-      <div className="dark relative flex translate-y-1/4 flex-col overflow-hidden rounded-lg bg-secondary-light-100/60 opacity-0 md:flex-row ConversionPanel_noiseBgLight__3g_pP" style={{ translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)' }}>
-        <div className="flex flex-col justify-between p-md text-primary-neutral-50 2xl:p-lg md:w-2/3">
-          <div>
-            <h3 className="font-display text-xl font-bold leading-extra-tight md:text-2xl xl:text-3xl 2xl:text-3_5xl mb-2xs">
-              <span>
-                <span>Appsmith is lightweight, fast,
-and developer-focused</span>
-              </span>
-            </h3>
-            <div className="font-body text-xs leading-normal md:text-sm lg:text-base text-primary-dark-50">
-              <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs">
-                <span>Appsmith simplifies internal tool development for businesses. This helps to streamline operations, automate processes, and quickly integrate multiple apps and data while enhancing legacy apps with new features.&nbsp;</span>
-              </p>
-            </div>
-          </div>
-          <div className="mt-md flex flex-col gap-sm sm:flex-row">
-            <Link className="group relative items-center whitespace-nowrap flex justify-center text-xs lg:text-sm 2xl:text-sm font-display font-bold px-sm py-2xs sm:px-sm sm:py-xs xl:px-md xl:py-sm 2xl:px-lg rounded transition-colors border bg-primary-neutral-50 text-primary-light-500 hover:bg-primary-neutral-50/20 hover:text-primary-neutral-50"  href="https://appsmith.com/">
-              <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">Get started for free</span>
-            </Link>
-            <Link className="group relative items-center whitespace-nowrap flex justify-center text-xs lg:text-sm 2xl:text-sm font-display font-bold px-sm py-2xs sm:px-sm sm:py-xs xl:px-md xl:py-sm 2xl:px-lg rounded transition-colors border border-primary-neutral-50 text-primary-neutral-50 hover:bg-primary-neutral-50/20" href="/demo">
-              <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">Get a demo</span>
-            </Link>
-            <Link className="" href="/pricing" style={{marginTop:'25px'}}>
-              <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">See pricing and plans</span>
-            </Link>
-          </div>
-          
-        </div>  
-   <Image className="-mb-sm -mr-sm ml-auto mt-auto hidden max-h-96 object-contain object-right-bottom md:block md:w-1/3 md:pt-md"
-        src={image_banner} alt='banner' style={{ color: 'transparent' }}>
+    <section className="pt-sm md:pt-sm xl:pt-md pb-sm md:pb-md xl:pb-lg scroll-mt-32 bg-primary-neutral-50 text-primary-dark-800" id="homepage-build-vs-buy-section">
+  <div className="container mx-auto">
+    <div className="dark relative flex translate-y-1/4 flex-col overflow-hidden rounded-lg bg-secondary-light-100/60 opacity-0 md:flex-row ConversionPanel_noiseBgLight__3g_pP" style={{ translate: 'none', rotate: 'none', scale: 'none', opacity: 1, transform: 'translate(0px, 0px)', backgroundImage: `url(${noiseBackground})` }}>
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="absolute inset-0" style={{ zIndex: '1' }}>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="5%" stopColor="rgba(101, 51, 195, 0.2)" />
+      <stop offset="50%" stopColor="rgba(101, 51, 195, .20)" />
+    </linearGradient>
+  </defs>
+  <filter id="noiseFilter">
+    <feTurbulence type="turbulence" baseFrequency="10" numOctaves="1" stitchTiles="nostitch" />
+    <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" />
+  </filter>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)" fill="url(#gradient)" />
+</svg>
 
-   </Image>
-     
-        
+      <div className="flex flex-col justify-between p-md text-primary-neutral-50 2xl:p-lg md:w-2/3" style={{zIndex:'5'}}>
+        <div>
+          <h3 className="font-display text-xl font-bold leading-extra-tight md:text-2xl xl:text-3xl 2xl:text-3_5xl mb-2xs"><span><span>Appsmith is lightweight, fast, and developer-focused</span></span></h3>
+          <div className="font-body text-xs leading-normal md:text-sm lg:text-base text-primary-dark-50">
+            <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs"><span>Appsmith simplifies internal tool development for businesses. This helps to streamline operations, automate processes, and quickly integrate multiple apps and data while enhancing legacy apps with new features.&nbsp;</span></p>
+          </div>
+        </div>
+        <div className="mt-md flex flex-col gap-sm sm:flex-row">
+          <Link className="group relative items-center whitespace-nowrap flex justify-center text-xs lg:text-sm 2xl:text-sm font-display font-bold px-sm py-2xs sm:px-sm sm:py-xs xl:px-md xl:py-sm 2xl:px-lg rounded transition-colors border bg-primary-neutral-50 text-primary-light-500 hover:bg-primary-neutral-50/20 hover:text-primary-neutral-50" href="https://appsmith.com/">
+            <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">Get started for free</span>
+          </Link>
+          <Link className="group relative items-center whitespace-nowrap flex justify-center text-xs lg:text-sm 2xl:text-sm font-display font-bold px-sm py-2xs sm:px-sm sm:py-xs xl:px-md xl:py-sm 2xl:px-lg rounded transition-colors border border-primary-neutral-50 text-primary-neutral-50 hover:bg-primary-neutral-50/20" href="/demo">
+            <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">Get a demo</span>
+          </Link>
+          <Link className="" href="/pricing" style={{marginTop:'25px'}}>
+            <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">See pricing and plans</span>
+          </Link>
+        </div>
       </div>
+      <Image className="-mb-sm -mr-sm ml-auto mt-auto hidden max-h-96 object-contain object-right-bottom md:block md:w-1/3 md:pt-md"
+        src={image_banner} alt='banner' style={{ color: 'transparent' }} />
     </div>
-    </div>
+  </div>
+</section>
+
+
+
    </>
   )
 }
