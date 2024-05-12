@@ -26,19 +26,19 @@ function DemoPage() {
         <h1 className="font-display text-3xl font-bold leading-tight xl:text-6xl text-center">
           <span>
             <span className="relative inline-block bg-gradient-to-br from-primary-light-500 to-primary-light-500" style={{ backgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent' }}>
-            Accelerate custom
+            Someplace we need
               <div className="pointer-events-none absolute -left-[5px] top-1/2 h-full w-full -translate-y-1/2 overflow-hidden border-l-2 border-l-primary-light-500 opacity-0" style={{ opacity: 1 }}>
                 <div className="h-full w-full -translate-x-full" style={{ background: 'linear-gradient(90deg, rgba(116, 65, 246, 0.2) 54.94%, rgba(116, 65, 246, 0) 96.77%)', translate: 'none', rotate: 'none', scale: 'none', transform: 'translate(0px, 0px)' }}></div>
               </div>
             </span>
             <span></span>
             <br></br>
-            <span>application development</span>
+            <span>to call home 🏠</span>
           </span>
         </h1>
           <div className="font-body text-xs leading-normal md:text-sm lg:text-base text-center mt-3xs text-primary-dark-800/70 dark:text-primary-neutral-50/80 lg:mt-2xs 2xl:mt-xs max-w-[35em] lg:max-w-[40em] 2xl:max-w-[45em]">
             <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs">
-              <span>Thousands of teams use the Appsmith low-code application platform to quickly build, deploy, and manage effective software with enterprise-grade security and governance.</span>
+              <span>I created the home page for easy navigation across other pages. I have utilised existing classes from appsmith.com to expedite the development process.  </span>
             </p>
           </div>
           <div className="mt-2xs flex gap-sm md:mt-sm 2xl:mt-md">
@@ -72,7 +72,7 @@ function DemoPage() {
     <div className="flex flex-col justify-between rounded-lg bg-secondary-light-100/60 px-6 py-8 dark:bg-primary-dark-700" id='spotlight'>
       <div>
         <h3 className="font-display text-3xl font-extrabold leading-none text-primary-dark-600 dark:text-primary-light-500">60%</h3>
-        <p className="mt-2xs text-md font-medium text-primary-light-500 dark:text-primary-dark-100">Development time reduced by copying global css from appsmith.com</p>
+        <p className="mt-2xs text-md font-medium text-primary-light-500 dark:text-primary-dark-100">Time reduced by utilising existing classes, global css and GPTs</p>
       </div>
       <div className="mt-md flex h-full items-end">
        </div>
