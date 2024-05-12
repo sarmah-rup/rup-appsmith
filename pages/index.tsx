@@ -38,12 +38,12 @@ function DemoPage() {
         </h1>
           <div className="font-body text-xs leading-normal md:text-sm lg:text-base text-center mt-3xs text-primary-dark-800/70 dark:text-primary-neutral-50/80 lg:mt-2xs 2xl:mt-xs max-w-[35em] lg:max-w-[40em] 2xl:max-w-[45em]">
             <p className="font-body text-xs leading-normal md:text-sm lg:text-base mb-2xs">
-              <span>This home page is for easy navigation across other pages. I have utilised existing classes from appsmith.com to expedite the development process.  </span>
+              <span>This home page is designed for easy navigation to other pages. I have utilised existing classes from appsmith.com to expedite the development process.  </span>
             </p>
           </div>
           <div className="mt-2xs flex gap-sm md:mt-sm 2xl:mt-md">
             <Link className="group relative inline-flex items-center whitespace-nowrap rounded text-primary-neutral-50 transition hover:text-primary-light-500 dark:hover:text-primary-neutral-50 text-xs lg:text-sm 2xl:text-sm font-display font-bold px-sm py-2xs sm:px-sm sm:py-xs xl:px-md xl:py-sm 2xl:px-lg" href="/demo">
-              <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">Demo</span>
+              <span className="relative z-10 flex items-center justify-center whitespace-nowrap leading-none">Mock UI</span>
               <span className="absolute left-0 top-0 h-full w-full rounded border-[1px] border-primary-light-500 bg-gradient-to-br from-primary-light-500/10 to-primary-light-650/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:from-primary-light-500/50 dark:to-primary-light-650/50"></span>
               <span className="absolute left-0 top-0 h-full w-full rounded bg-gradient-to-br from-primary-light-500 to-primary-light-650  transition-opacity duration-300 group-hover:opacity-0"></span>
             </Link>
